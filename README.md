@@ -3,30 +3,36 @@
 ## 🌎스크린샷
 
 ## 🌎프로젝트 소개
-> 
+> 친구들과 약속을 잡고 각자의 위치를 공유해 지각자를 확인하는 앱
 - iOS 7인 협업
 - 개발 기간
     - 23.09.20 ~ 23.10.24
-    - APP Store 출시 / 현재 v1.0.2
+    - [🔗APP Store 출시](https://apps.apple.com/kr/app/%EC%A7%80%ED%8C%8C%EB%91%90/id6474185787) / 현재 v1.0.2
 - 개발 환경
     - 최소버전 17.0
     - 세로모드
     - 라이트뭐드, 다크모드 지원
  
 ## 🌎핵심기능
--
+- 약속 등록
+- 약속 시간 30분 전 ~ 약속 시간 3시간 후 동안 지도상 위치공유 및 남은 거리 확인
+- 지난 약속 결과 확인
+- 친구 신청 및 관리
 
 ## 🌎사용한 기술스택
-- SwiftUI, MVC
-- Alamofire, MapKit, Kingfisher, FirebaseDatabase, FirebaseStorage, Toast, Lottie
-- Singleton
+- SwiftUI, MVVM
+- Alamofire, MapKit, CoreLocation, Kingfisher, Toast, Lottie, SlidingTabView, UserNotification, Widget
+- FirebaseDatabase, FirebaseStorage, 
+- SwiftConcurrency, Singleton, customModifier, customView, UIViewRepresentable, UIImagePickerControllerDelegate
 
 ## 🌎기술설명
-
-
+- View와 비즈니스로직을 담당하는 Store을 분리해 MVVM형태로 구현
+  - Firebase통신이나 GPS사용을 위한 다수의 Store 클래스와 특정 View에서 사용되는 ViewModel을 View에서 초기화
+  - 로그인 / 유저 / 약속 / 친구 / 마이페이지 / 위치 Store 클래스로 관리
+- 
 
 ## 🌎트러블슈팅
-### `1. loadObject클로저 구문으로 인해 사진이 추가되기 전 collectionview가 그려지는 문제`
+### `1. `
 
 1-1) 문제
 
