@@ -26,7 +26,7 @@
 - SwiftConcurrency, Singleton, customModifier, customView, UIViewRepresentable, UIImagePickerControllerDelegate
 
 ## 🌎기술설명
-- View와 비즈니스로직을 담당하는 Store을 분리해 MVVM형태로 구현
+- MVVM형태에 여러뷰에 필요한 store을 섞어 유동적으로 개발 진행
   - Firebase통신이나 GPS사용을 위한 다수의 Store 클래스와 특정 View에서 사용되는 ViewModel을 View에서 초기화
   - 로그인 / 유저 / 약속 / 친구 / 마이페이지 / 위치 Store 클래스로 관리
 - 
