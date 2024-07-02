@@ -7,7 +7,7 @@
 
 
 ## 🌎 프로젝트 소개
-> 친구들과 약속을 잡고 각자의 위치를 공유해 지각자를 확인하는 앱
+> 친구들과 약속을 잡고 각자의 위치를 공유해 지각자를 확인하는 앱, 자주 지각하는 사람들에게 습관을 고칠 수 있도록 동기를 제공.
 - iOS 7인 협업
 - 개발 기간
     - 23.09.20 ~ 23.10.24
@@ -25,8 +25,8 @@
 
 ## 🌎 사용한 기술스택
 - SwiftUI, MVVM
-- Alamofire, MapKit, CoreLocation, Kingfisher, Toast, Lottie, SlidingTabView, UserNotification, Widget
-- FirebaseDatabase, FirebaseStorage, 
+- Alamofire, MapKit, CoreLocation, Kingfisher, Lottie, SlidingTabView, UserNotification, Widget
+- FirebaseDatabase, FirebaseStorage, TipKit
 - SwiftConcurrency, Singleton, customModifier, customView, UIViewRepresentable, UIImagePickerControllerDelegate
 
 ## 🌎 기술설명
