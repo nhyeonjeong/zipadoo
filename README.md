@@ -30,8 +30,7 @@
 - SwiftConcurrency, Singleton, customModifier, customView, UIViewRepresentable, UIImagePickerControllerDelegate
 
 ## 🌎 기술설명
-- MVVM형태에 여러뷰에 필요한 store을 섞어 유동적으로 개발 진행
-  - Firebase통신이나 GPS사용을 위한 다수의 Store 클래스와 특정 View에서 사용되는 ViewModel을 View에서 초기화
+- 여러 뷰에서 사용되는 Firebase통신, GPS등을 위한 Store과 특정 View에서 사용되는 ViewModel 사용하며 MVVM형태로 구성
   - 로그인 / 유저 / 약속 / 친구 / 마이페이지 / 위치 Store 클래스로 관리
 - .task를 사용해 뷰를 그리기 전 나의 gps정보 확인
 - Timer로 5초마다 Database에 사용자의 위도 경도 저장 및 패치 후 annotation표시
